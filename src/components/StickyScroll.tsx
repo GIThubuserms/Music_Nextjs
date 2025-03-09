@@ -40,7 +40,7 @@ const musicSchoolContent= [
 
 function Stickyxcroll() {
   return (
-    <div className="py-10 ">
+    <div className="py-10 bg-black">
    <StickyScroll content={musicSchoolContent}/>
   </div>
   )
